@@ -35,6 +35,7 @@ public class LoginPageTest extends TestBase{
 		Assert.assertEquals(actualTitle, expectedTitle);
 		takeScreenshot(driver);		
 	}	
+	
 	@AfterMethod
 	public void tearDown() {
 		driver.close();
